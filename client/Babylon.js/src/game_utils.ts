@@ -21,7 +21,7 @@ export default class Utils {
 
     
     // public serverIp: string = "127.0.0.1"
-    public serverIp: string = "192.168.68.70" // Ubuntu nginx
+    public serverIp: string = "10.20.13.157" // Ubuntu nginx
 
 
     public targetPlaybackFps = 24; // in frames per second

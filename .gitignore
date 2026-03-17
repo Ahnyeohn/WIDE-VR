@@ -28,3 +28,8 @@ test/puppeteer/results/*
 test/puppeteer/network-patterns/preprocessed
 test/puppeteer/network-patterns/5g-lumous-v1.js
 test/puppeteer/network-patterns/5g-lumous-v2.js
+
+
+
+# yeon setting
+dataset/*

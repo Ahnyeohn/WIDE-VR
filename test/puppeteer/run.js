@@ -1,7 +1,7 @@
 const fs = require("fs");
 const puppeteer = require("puppeteer-core");
 // const stats = require("./stats");
-const CHROME_PATH ="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+const CHROME_PATH ="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"; //이거 수정해야 함
 //const CHROME_PATH = "/opt/google/chrome/chrome";
 
 
@@ -331,8 +331,8 @@ sleep(waitSeconds * 1000).then(() => {
     //test mode setuser agent to puppeteer
     page.setUserAgent("puppeteer");
 
-    await page.goto("https://192.168.68.70:8080/");
-
+    //await page.goto("https://192.168.68.70:8080/");
+    await page.goto("https://10.20.13.157:8080/");
     // await page.setCacheEnabled(false);
     const cdpClient = await page.target().createCDPSession();
 
